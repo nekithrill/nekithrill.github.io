@@ -1,0 +1,26 @@
+/* Global variables */
+
+:root {
+	--regular-size: 16px;
+	--font: 'Golos Text', sans-serif;
+	--fw-400: 400;
+	--fw-500: 500;
+	--fw-600: 600;
+	--fw-700: 700;
+	--fs-regular: 1rem;
+	--fs-h1: 2rem;
+	--fs-h2: 1.5rem;
+	--fs-h3: 1.25rem;
+	--fs-h4: var(--fs-regular);
+	--fs-h5: 0.8rem;
+	--fs-h6: 0.6rem;
+	--fs-menu-item: var(--fs-h3);
+	--clr-1: #1b3310;
+	--clr-2: #4c8434;
+	--clr-3: #76ce50;
+	--clr-4: #88eb5d;
+	--clr-5: #afeb95;
+	--clr-text: var(--clr-1);
+	--clr-hover: rgb(203, 255, 206);
+	--bg-gradient: linear-gradient(0deg, #88eb5d 0%, #afeb95 100%);
+}

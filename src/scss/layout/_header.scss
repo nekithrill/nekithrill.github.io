@@ -1,0 +1,38 @@
+/* Header */
+
+.header {
+	width: 100%;
+	position: relative;
+	background-color: var(--clr-3);
+	&__navbar {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 1200px;
+		margin: 0 auto;
+		padding: 2rem 0;
+		& ul {
+			display: flex;
+			flex-direction: row;
+			gap: 2.5rem;
+			& li {
+				list-style-type: none;
+				& a {
+					letter-spacing: 1px;
+					text-decoration: none;
+					color: var(--clr-text);
+					font-size: var(--fs-menu-item);
+					font-weight: var(--fw-600);
+					transition: color 0.2s ease;
+					&:hover {
+						color: var(--clr-hover);
+					}
+				}
+			}
+		}
+	}
+	&__title {
+		color: var(--clr-text);
+		font-weight: var(--fw-400);
+	}
+}

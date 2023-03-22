@@ -1,0 +1,15 @@
+//* Utilities & Base
+@import './utilities/fonts';
+@import './utilities/variables';
+@import './base/reset';
+@import './base/common';
+
+//* Layout
+@import './layout/header';
+@import './layout/body';
+@import './layout/footer';
+
+//* Pages
+@import './pages/news-page';
+@import './pages/photo-page';
+@import './pages/rozklad-page';

@@ -1,0 +1,13 @@
+.news-article {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto 1fr 1fr;
+	gap: 3rem 0;
+	padding: 4rem;
+	& figure {
+		& img {
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+}
