@@ -45,7 +45,7 @@ const webpackConfig = {
 		new HtmlWebpackPlugin({
 			title: 'webpack index',
 			template: './src/pages/index.html',
-			filename: 'pages/index.html',
+			filename: 'index.html',
 			inject: true,
 			chunks: ['pages'],
 			minify: {
@@ -61,7 +61,7 @@ const webpackConfig = {
 		new HtmlWebpackPlugin({
 			title: 'webpack news',
 			template: './src/pages/news.html',
-			filename: 'pages/news.html',
+			filename: 'news.html',
 			inject: true,
 			chunks: ['pages'],
 			minify: {
@@ -77,7 +77,7 @@ const webpackConfig = {
 		new HtmlWebpackPlugin({
 			title: 'webpack photo',
 			template: './src/pages/photo.html',
-			filename: 'pages/photo.html',
+			filename: 'photo.html',
 			inject: true,
 			chunks: ['pages'],
 			minify: {
@@ -93,7 +93,7 @@ const webpackConfig = {
 		new HtmlWebpackPlugin({
 			title: 'webpack rozklad',
 			template: './src/pages/rozklad.html',
-			filename: 'pages/rozklad.html',
+			filename: 'rozklad.html',
 			inject: true,
 			chunks: ['pages'],
 			minify: {
